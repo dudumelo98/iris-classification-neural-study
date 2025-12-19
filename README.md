@@ -15,7 +15,7 @@ O fluxo de trabalho (workflow) foi estruturado da seguinte forma:
 Ao analisar o gráfico de dispersão (Scatter Plot), chegamos às seguintes conclusões:
 ![Resultados](resultados.png)
 
-📈 O que os resultados me mostraramPara avaliar se os modelos estavam aprendendo corretamente, utilizei a técnica de Cross-Validation (com 5 folds). Fiquei bastante atento aos indicadores de desempenho e os números que obtive foram estes:ModeloPrecisionRecallF1-ScoreAccuracy (CA)Logistic Regression0.9670.9670.9670.967Neural Network0.9270.9270.9270.927
+📈 O que os resultados me mostraramPara avaliar se os modelos estavam aprendendo corretamente, utilizei a técnica de Cross-Validation (com 5 folds). Fiquei bastante atento aos indicadores de desempenho e os números que obtive foram estes:ModeloPrecisionRecallF1-ScoreAccuracy (CA)Logistic Regression0.967 0.967 0.967 0.967Neural Network0.927 0.927 0.927 0.927
 
 🧠 A minha conclusão pessoal
 Neste estudo, pude perceber que a Regressão Logística acabou por ter um desempenho superior à Rede Neural, chegando a uma acurácia de 96.7%.
@@ -23,6 +23,8 @@ Neste estudo, pude perceber que a Regressão Logística acabou por ter um desemp
 Isso me trouxe um aprendizado importante: nem sempre o modelo mais complexo é o melhor para todas as situações. Para este caso específico, com um volume de dados menor e uma separação linear mais clara, o modelo estatístico tradicional mostrou-se muito mais eficiente e preciso.
 
 ## 📂 Estrutura do Repositório
-- `/images`: Prints do workflow e dos gráficos de resultados.
-- `projeto iris.ows`: Arquivo original do Orange com toda a lógica do experimento.
-- `Desafio_Iris_Final.xlsx`: Planilha com os dados e as predições finais exportadas.
+- `fluxo.png`: Print do workflow principal do experimento.
+- `resultados.png`: Gráfico de dispersão com os resultados finais.
+- `projeto iris.ows`: Arquivo original do Orange com toda a lógica que desenvolvi.
+- `Desafio_Iris_Final.xlsx`: Planilha com os dados e as predições que exportei.
+- `/imagens`: Pasta contendo arquivos auxiliares de imagem.
