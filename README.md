@@ -4,7 +4,7 @@ Este projeto é um estudo prático de Classificação de Dados utilizando a ferr
 
 ## 📊 Metodologia do Experimento
 O fluxo de trabalho (workflow) foi estruturado da seguinte forma:
-![Fluxo do Projeto](imagens/imagem.png)
+![Fluxo do Projeto](https://github.com/dudumelo98/iris-classification-neural-study/blob/main/images/image%202.png)
 
 - **Criação de Dados**: Utilização do widget Paint Data para gerar pontos que simulam as três espécies da flor Iris.
 - **Modelagem**: Implementação paralela de uma Neural Network (Rede Neural) e uma Logistic Regression (Regressão Logística).
