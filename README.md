@@ -12,7 +12,7 @@ O fluxo de trabalho (workflow) foi estruturado da seguinte forma:
 
 ## 🧠 Conclusões Técnicas
 Ao analisar o gráfico de dispersão (Scatter Plot), chegamos às seguintes conclusões:
-![Resultados](imagens/imagem%202.png)
+![Resultados](imagens/resultados.png)
 
 
 - **Grupo Azul (Iris-setosa)**: Ficou completamente isolado no gráfico. Isso ocorre porque suas características físicas são únicas, tornando-o um grupo "linearmente separável" e fácil de identificar pela IA com 100% de precisão.
