@@ -1,23 +1,26 @@
 # Iris Classification - Neural Network & Logistic Regression Study
 
-Este projeto é um estudo prático de Classificação de Dados utilizando a ferramenta Orange Data Mining. O objetivo foi analisar como diferentes algoritmos de Inteligência Artificial se comportam ao tentar separar grupos de dados com diferentes níveis de semelhança.
+🧠Classificação da Íris: O meu estudo sobre Redes Neurais e Regressão Logística
+Neste projeto, decidi explorar como diferentes algoritmos de Inteligência Artificial se comportam ao tentar separar grupos de dados com diferentes níveis de semelhança. Utilizei a base de dados Iris e a ferramenta Orange Data Mining para construir e validar os meus modelos.
+
+📊 Como estruturei o meu experimento
+Para começar, montei um fluxo de trabalho (workflow) onde pude visualizar cada etapa, desde a entrada dos dados até à avaliação final. Abaixo podes ver como ficou o desenho do meu processo:
 
 ## 📊 Metodologia do Experimento
 O fluxo de trabalho (workflow) foi estruturado da seguinte forma:
 ![Fluxo do Projeto](fluxo.png).
 
-- **Criação de Dados**: Utilização do widget Paint Data para gerar pontos que simulam as três espécies da flor Iris.
-- **Modelagem**: Implementação paralela de uma Neural Network (Rede Neural) e uma Logistic Regression (Regressão Logística).
-- **Avaliação**: Uso do widget Test and Score com a técnica de Cross-Validation (5 dobras) para medir a precisão dos modelos.
 
 ## 🧠 Conclusões Técnicas
 Ao analisar o gráfico de dispersão (Scatter Plot), chegamos às seguintes conclusões:
 ![Resultados](resultados.png)
 
+📈 O que os resultados me mostraramPara avaliar se os modelos estavam aprendendo corretamente, utilizei a técnica de Cross-Validation (com 5 folds). Fiquei bastante atento aos indicadores de desempenho e os números que obtive foram estes:ModeloPrecisionRecallF1-ScoreAccuracy (CA)Logistic Regression0.9670.9670.9670.967Neural Network0.9270.9270.9270.927
 
-- **Grupo Azul (Iris-setosa)**: Ficou completamente isolado no gráfico. Isso ocorre porque suas características físicas são únicas, tornando-o um grupo "linearmente separável" e fácil de identificar pela IA com 100% de precisão.
-- **Grupos Vermelho e Verde**: Apresentaram uma zona de sobreposição. Como as flores possuem medidas muito parecidas, os modelos tiveram maior dificuldade em traçar uma fronteira de decisão, resultando em pequenas falhas de classificação nessas áreas.
-- **Desempenho dos Modelos**: A Regressão Logística apresentou uma acurácia superior (0.967) em comparação à Rede Neural (0.927) para este conjunto específico de dados.
+🧠 A minha conclusão pessoal
+Neste estudo, pude perceber que a Regressão Logística acabou por ter um desempenho superior à Rede Neural, chegando a uma acurácia de 96.7%.
+
+Isso me trouxe um aprendizado importante: nem sempre o modelo mais complexo é o melhor para todas as situações. Para este caso específico, com um volume de dados menor e uma separação linear mais clara, o modelo estatístico tradicional mostrou-se muito mais eficiente e preciso.
 
 ## 📂 Estrutura do Repositório
 - `/images`: Prints do workflow e dos gráficos de resultados.
