@@ -4,7 +4,6 @@ Este projeto é um estudo prático de Classificação de Dados utilizando a ferr
 
 ## 📊 Metodologia do Experimento
 O fluxo de trabalho (workflow) foi estruturado da seguinte forma:
-
 ![Fluxo do Projeto](imagens/imagem.png)
 
 - **Criação de Dados**: Utilização do widget Paint Data para gerar pontos que simulam as três espécies da flor Iris.
